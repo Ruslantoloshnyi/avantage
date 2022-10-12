@@ -1,4 +1,4 @@
-/*Homepage*/
+/*Homepage header*/
 
 .header-menu ul {
     list-style: none;
@@ -84,45 +84,47 @@
 }
 
 .title-section {
-	position: relative;
+    position: relative;
 }
 
 .header:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  opacity: 1;
-  z-index: 10;
-  background-image: url('../image/wave-double-sm.png');
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    z-index: 10;
+    background-image: url('../image/wave-double-sm.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
 }
+
+/*Homepage info section*/
+
+
 
 .info-card {
     display: flex;
     justify-content: center;
-    vertical-align: top;
+      
 }
 
-.info-one {
-
-    margin-left: auto;
-    margin-right: auto;
-
+.info-one {    
     text-align: center;
     margin-top: 129px;
+    margin-right: 130px;
 }
 
 
 .container {
-    width: 1200px;
+    width: 1170px;
     max-width: 100%;
     margin: 0 auto;
+
 }
 
 .info-title {
@@ -151,5 +153,89 @@
 
 .img-one {
     height: 106px;
+}
 
+/*Homepage grid section*/
+
+.grid h1 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #4A4646;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 230.71px);
+    grid-column-gap: 14px;
+    grid-row-gap: 16px;
+    grid-template-areas:
+        "post-1 post-1 post-2 post-3"
+        "post-4 post-5 post-6 post-3"
+        "post-7 post-7 post-6 post-8"
+        "post-7 post-7 post-9 post-9"
+        "post-10 post-11 post-9 post-9"
+        "post-10 post-12 post-12 post-13"
+}
+
+.grid-item1 {
+    grid-area: post-1;
+}
+
+.grid-item3 {
+    grid-area: post-3;
+}
+
+.grid-item6 {
+    grid-area: post-6;
+}
+
+.grid-item7 {
+    grid-area: post-7;
+}
+
+.grid-item9 {
+    grid-area: post-9;
+}
+
+.grid-item10 {
+    grid-area: post-10;
+}
+
+.grid-item12 {
+    grid-area: post-12;
+}
+
+/*Booking section*/
+
+.booking h1 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #4A4646;
+}
+
+.booking p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4A4646;
+}
+
+.booking span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1ABC9C;
 }
