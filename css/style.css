@@ -89,7 +89,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    width: 250px;
+
     color: #4A4646;
 }
 
@@ -120,24 +120,41 @@
         "post-10 post-12 post-12 post-13"
 }
 
-@media (max-width: 700px) {
+.grid-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media (max-width: 767px) {
     .grid-container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(12, 230.71px);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(13, 230.71px);
         grid-column-gap: 14px;
+        grid-row-gap: 16px;
         grid-template-areas:
-            "post-9 post-9"
-            "post-9 post-9"
-            "post-7 post 7"
-            "post-7 post 7"
-            "post-10 post3"
-            "post-10 post 3"
-            "post-1 post-1"
-            "post-12 post-12"
-            "post-6 post-4"
-            "post-6 post-8"
-            "post-2 post-5"
-            "post-11 post-13";
+            "post-1"
+            "post-2"
+            "post-3"
+            "post-4"
+            "post-5"
+            "post-6"
+            "post-7"
+            "post-8"
+            "post-9"
+            "post-10"
+            "post-11"
+            "post-12"
+            "post-13";
+    }
+
+    .grid-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
@@ -263,7 +280,7 @@
     padding-top: 64px;
 }
 
-.footer-adress-head {
+.footer-head {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -272,8 +289,7 @@
     color: #ffffff;
 }
 
-.footer-adress-content {
-    margin-left: 143px;
+.footer-content {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -285,22 +301,7 @@
 
 }
 
-.footer-contact {
-    display: flex;
-    padding-top: 115px;
-}
-
-.footer-contact-head {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    color: #ffffff;
-}
-
-.footer-contact-content {
-    margin-left: 126px;
+.footer-content-two {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -309,3 +310,6 @@
     color: #FFFFFF;
 }
 
+.footer-dist {
+    padding-top: 105px;
+}
