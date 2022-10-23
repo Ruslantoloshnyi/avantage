@@ -8,6 +8,32 @@
 
 }
 
+@media (max-width: 991px) {
+    .header {
+        background-image: url('../image/bg-table.jpg');
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        background-image: url('../image/bg-mobile.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-position: right top;
+
+    }
+}
+
+.nav-item a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4A4646;
+}
+
+
 .title-head h1 {
 
     font-family: 'Merriweather';
@@ -42,20 +68,25 @@
     color: #4A4646;
 }
 
+
+
+
+.title-href {
+    margin-top: 50px;
+    margin-left: 24px;
+    background-color: #1ABC9C;
+}
+
 .title-href a {
 
-    margin-left: 24px;
+    outline: #1ABC9C;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
-    line-height: 27px;
-    background-image: url('../image/button-bg.png');
-
+    line-height: 27px;    
     text-decoration: none;
-
     color: #ffff;
-
 }
 
 /*Homepage info section*/
