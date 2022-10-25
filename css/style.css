@@ -6,6 +6,7 @@
     background-size: cover;
     background-position: right top;
 
+
 }
 
 @media (max-width: 991px) {
@@ -84,10 +85,12 @@
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
-    line-height: 27px;    
+    line-height: 27px;
     text-decoration: none;
     color: #ffff;
 }
+
+
 
 /*Homepage info section*/
 
@@ -343,4 +346,72 @@
 
 .footer-dist {
     padding-top: 105px;
+}
+
+/*Rooms header*/
+
+.header-rooms {
+    background-image: url('../image/rooms-bg.jpg');
+    height: 100vh;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.rooms-title {
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #4A4646;
+}
+
+.room-card-image {
+    text-align: center;
+}
+.rooms-card {
+    text-align: center;
+}
+
+.rooms-card-head {
+    text-align: left;
+    padding-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #1ABC9C;
+}
+
+.rooms-card-pinc {
+    display: flex;
+    padding-top: 10px;
+}
+
+.card-pinc {
+    margin-right: 12px;
+}
+
+.container-card {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.rooms-content {
+    padding-top: 10px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4A4646;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
 }
