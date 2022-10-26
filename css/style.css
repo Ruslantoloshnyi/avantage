@@ -369,7 +369,7 @@
 }
 
 .room-card-image {
-    text-align: center;
+    
 }
 .rooms-card {
     text-align: center;
@@ -414,4 +414,5 @@
 .card-footer {
     display: flex;
     justify-content: space-between;
+    margin-top: 25px;
 }
