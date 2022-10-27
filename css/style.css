@@ -275,6 +275,38 @@
     color: #1ABC9C;
 }
 
+.booking-text {
+    margin-top: 260px;
+}
+
+.booking-span-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1ABC9C;
+}
+
+span.booking-span-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+span.booking-text-content {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+
 /*footer*/
 
 .footer-section {
@@ -368,9 +400,8 @@
     color: #4A4646;
 }
 
-.room-card-image {
-    
-}
+.room-card-image {}
+
 .rooms-card {
     text-align: center;
 }
