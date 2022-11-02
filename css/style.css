@@ -382,7 +382,7 @@ span.booking-text-content {
     padding-top: 105px;
 }
 
-/*Rooms header*/
+/*Rooms*/
 
 .header-rooms {
     background-image: url('../image/rooms-bg.jpg');
@@ -406,8 +406,7 @@ span.booking-text-content {
     text-align: center;
     border-radius: 32px 32px 32px 32px;
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
-    
-    margin-bottom: 60px;      
+    margin-bottom: 60px;
 }
 
 .rooms-card-head {
@@ -478,3 +477,44 @@ span.booking-text-content {
     color: #4A4646;
 }
 
+/*zoom-room*/
+
+.header-zoom-room {
+    background: rgba(255, 255, 255, 0.69);
+    box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.1);
+}
+
+.zoom-room-head {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #4A4646;
+    text-align: center;
+}
+
+.zoom-room-pic {
+    justify-content: center;
+    height: 75px;
+    display: flex;
+}
+
+.zoom-room-pic-img {
+    margin: auto;
+}
+
+.zoom-room-pic-text {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.zoom-room-head-section {
+    padding-top: 60px;
+}
