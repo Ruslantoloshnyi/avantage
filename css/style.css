@@ -518,3 +518,12 @@ span.booking-text-content {
 .zoom-room-head-section {
     padding-top: 60px;
 }
+
+.zoom-room-info-content {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
