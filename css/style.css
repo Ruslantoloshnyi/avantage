@@ -527,3 +527,12 @@ span.booking-text-content {
     line-height: 27px;
     color: #000000;
 }
+
+.container-slyder {
+    margin-left: 289px;
+    margin-right: 289px;
+}
+
+.zoom-room-slyder-section {
+    margin-top: 60px;
+}
