@@ -536,3 +536,94 @@ span.booking-text-content {
 .zoom-room-slyder-section {
     margin-top: 60px;
 }
+
+.booking-zoom-room {
+    margin-top: 78px;
+}
+
+.booking-zoom-room p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4A4646;
+}
+
+.booking-zoom-room span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1ABC9C;
+}
+
+
+.zoom-room-booking-text-head p .zoom-room-booking-span-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.zoom-room-booking-text-one p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.zoom-room-booking-text {
+    margin-left: 90px;
+    margin-right: 38px;
+}
+
+.container-calendar {
+    height: 330px;
+}
+
+.calendar-head p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1ABC9C;
+}
+
+.zoom-room-table {
+    width: 99%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.zoom-room-table-one {
+    border-right: 1px solid #1ABC9C;
+    color: #1ABC9C;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.zoom-room-table-two {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    padding-left: 20px;
+    color: #000000;
+
+}
+
+.zoom-room-table td {
+    border-bottom: 1px solid #1ABC9C;
+}
