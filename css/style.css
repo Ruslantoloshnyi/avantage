@@ -275,9 +275,7 @@
     color: #1ABC9C;
 }
 
-.booking-text {
-    margin-top: 260px;
-}
+
 
 .booking-span-title {
     font-family: 'Montserrat';
@@ -387,8 +385,9 @@ span.booking-text-content {
 .header-rooms {
     background-image: url('../image/rooms-bg.jpg');
     height: 100vh;
-    background-size: auto;
+
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .rooms-title {
@@ -605,7 +604,6 @@ span.booking-text-content {
 .zoom-room-table-one {
     border-right: 1px solid #1ABC9C;
     color: #1ABC9C;
-    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -626,4 +624,90 @@ span.booking-text-content {
 
 .zoom-room-table td {
     border-bottom: 1px solid #1ABC9C;
+}
+
+/*Booking*/
+
+.booking-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4A4646;
+    margin-top: 52px;
+}
+
+.booking-head {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #4A4646;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.booking-price-content {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4A4646;
+}
+
+.booking-price-content span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1ABC9C;
+}
+
+.booking-table table {
+    width: 100%;
+}
+
+.booking-table tr {
+    height: 60px;
+}
+
+.booking-table th {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 1px solid #1ABC9C;
+    border-right: 1px solid #1ABC9C;
+}
+
+.booking-table td {
+    border-bottom: 1px solid #1ABC9C;
+    border-right: 1px solid #1ABC9C;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    padding-left: 20px;
+    vertical-align: bottom;
+}
+
+.booking-table td.booking-table-one {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1ABC9C;
+    padding-left: 0px;
 }

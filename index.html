@@ -363,61 +363,52 @@
 
                 </div>
 
-                <div class="col-md-6 col-12" style="background-color: green">
+                <div class="col-md-6 col-12">                    
 
-                    <div class="col-12" style="background-color: red">
+                        <div class="row">
 
-                        <section class="">
+                            <div class="col-md-6 col-12">
+                                <div class="container-calendar">
+                                    <div class="calendar-head">
+                                        <p>Дата заїзду:</p>
+                                    </div>
 
-                            <div class="row">
-
-                                <div class="col-6">
                                     <form>
                                         <div class="row form-group">
-
-                                            <div style="background-color: orange">
-                                                <div class="input-group date" id="datepicker">
-                                                    <input type="text" class="form-control">
-                                                    <span class="input-group-append">
-                                                        <span class="input-group-text bg-white">
-                                                            <i class="fa fa-calendar"></i>
-                                                        </span>
+                                            <div class="input-group date" id="datepicker">
+                                                <input type="text" class="form-control">
+                                                <span class="input-group-append">
+                                                    <span class="input-group-text bg-white">
+                                                        <i class="fa fa-calendar"></i>
                                                     </span>
-                                                </div>
+                                                </span>
                                             </div>
                                         </div>
                                     </form>
-
                                 </div>
-
-                                <div class="col-6">
-                                    <form>
-                                        <div class="row form-group">
-
-                                            <div style="background-color: orange">
-                                                <div class="input-group date" id="datepicker">
-                                                    <input type="text" class="form-control">
-                                                    <span class="input-group-append">
-                                                        <span class="input-group-text bg-white">
-                                                            <i class="fa fa-calendar"></i>
-                                                        </span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-
-                                </div>
-
-
-
                             </div>
 
-                        </section>
+                            <div class="col-md-6 col-12">
 
+                                <div class="calendar-head">
+                                    <p>Дата виїзду:</p>
+                                </div>
 
+                                <form>
+                                    <div class="row form-group">
+                                        <div class="input-group date" id="datepicker-2">
+                                            <input type="text" class="form-control">
+                                            <span class="input-group-append">
+                                                <span class="input-group-text bg-white">
+                                                    <i class="fa fa-calendar"></i>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
 
-                    </div>
+                        </div>           
 
                     <div class="col-12 booking-text">
                         <p><span class="booking-span-title">Всього:</span> <span class="">11500 грн (7 ночей)</span><br>
@@ -506,6 +497,12 @@
     <script type="text/javascript">
         $(function () {
             $('#datepicker').datepicker();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#datepicker-2').datepicker();
         });
     </script>
 
