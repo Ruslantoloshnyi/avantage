@@ -670,7 +670,7 @@ span.booking-text-content {
 }
 
 .booking-table table {
-    width: 100%;
+    width: 100%;    
 }
 
 .booking-table tr {
@@ -710,4 +710,32 @@ span.booking-text-content {
     line-height: 27px;
     color: #1ABC9C;
     padding-left: 0px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.booking-map-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4A4646;
+}
+
+.booking-map-text span {
+    padding-left: 105px;
 }
