@@ -2,7 +2,7 @@
 
 .header {
     background-image: url('../image/bg.png');
-    height: auto;
+    height: 100vh;
     background-size: cover;
     background-position: right top;
 
@@ -23,6 +23,10 @@
         background-position: right top;
 
     }
+}
+
+.bg-avantage {
+    background-color: #1ABC9C;
 }
 
 .nav-item a {
@@ -669,8 +673,12 @@ span.booking-text-content {
     color: #1ABC9C;
 }
 
+.booking-table {
+    overflow-x: auto;
+}
+
 .booking-table table {
-    width: 100%;    
+    width: 100%;
 }
 
 .booking-table tr {
