@@ -5,9 +5,9 @@
     height: 100vh;
     background-size: cover;
     background-position: right top;
-
-
+    
 }
+
 
 @media (max-width: 991px) {
     .header {
@@ -40,36 +40,29 @@
 
 
 .title-head h1 {
-
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 70px;
-
     color: #ffff;
 }
 
 .title-content {
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 27px;
-
     color: #4A4646;
-
 }
 
 .title-foot {
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 27px;
-
     color: #4A4646;
 }
 
@@ -83,7 +76,6 @@
 }
 
 .title-href a {
-
     outline: #1ABC9C;
     font-family: 'Montserrat';
     font-style: normal;
@@ -97,6 +89,10 @@
 
 
 /*Homepage info section*/
+
+.info {
+    margin-top: 50px;
+}
 
 .img-one {
     height: 115px;
@@ -116,9 +112,7 @@
     font-weight: 600;
     font-size: 28px;
     line-height: 34px;
-
     color: #1ABC9C;
-
 }
 
 .info-content {
@@ -127,7 +121,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-
     color: #4A4646;
 }
 
@@ -193,7 +186,8 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }
+    }   
+
 }
 
 
